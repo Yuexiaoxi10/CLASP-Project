@@ -1,3 +1,5 @@
+setup: download coco API from https://github.com/cocodataset/cocoapi into the folder
+
 1. First to read: 'formatData.m'- main script to pre-process the training from the ground truth
 1) traing data: experiment 5A: camera 9&11; experiment 9A: camera 11; exp4: camera 11
 2) getAnnos.m: orgnized data into a certain format; 
