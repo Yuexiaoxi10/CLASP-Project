@@ -4,7 +4,7 @@ imroot = '/Users/yuexizhang/Documents/CLASP/alert-data-2/';
 gt = getAnnos(imroot,label_set);
 %% %% Pick R_wrist & L_wrist
 % gt:index = 7 & 4; det: 3 & 18
-
+% load detections to get Result1
 for i = 1 : length(Result1)
     name = split(Result1(i).imPath,'Frame');
     name1 = name{2,1};
