@@ -5,4 +5,4 @@ This folder provides several scripts to visualize the result of person, bin, and
 2)one of outputs from the script 'Result' is used to be as the input for 'visual.m' and also for 'Touching.m';
 3) format of 'Result': Result.candi:[x y score joint_id], (x,y) is the position for this joint; Result.imId: number of images which contains this person; Result.imPath: path of images; 
 'Touching.m': this scripts is to detect wheather a person is going to touch stuffs in bin.
-
+'detAct.m': it is to detect wheather a bin changes in two consecutive frames
