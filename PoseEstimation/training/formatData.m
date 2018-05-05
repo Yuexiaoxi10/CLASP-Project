@@ -63,7 +63,7 @@ for n = 1 : N
 end
 
 %% generate masks for Clasp data
-%ClaspMask.m;
+ClaspMask(CLASP_data);
 
 
 
@@ -73,9 +73,9 @@ joint_all = genJSON_clasp('CLASP',CLASP_data);
 
 
 %% Generate GT .mat
-gason_path = '/Users/yuexizhang/Documents/Realtime/Realtime_Multi-Person_Pose_Estimation-master/training/CLASP/Clasp/json/9A_test_seq.json';
-camera = 'Camera11';
-label_set= readGason(gason_path,camera);
+%gason_path = '/Users/yuexizhang/Documents/Realtime/Realtime_Multi-Person_Pose_Estimation-master/training/CLASP/Clasp/json/9A_test_seq.json';
+%camera = 'Camera11';
+%label_set= readGason(gason_path,camera);
 
 
 
