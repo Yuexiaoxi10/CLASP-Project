@@ -11,3 +11,5 @@ To start:
 1. Please clone each repos from above 4 links, then read their instructions to setup;
 2. We revised some files by following our dataset, so,
 (1) For pose estimation : After you setup all things as instructions; a)replace scripts in 'training' with scripts in our 'training' folder; b) adding our files from 'testing' into the original 'testing' folder; 
+(2) For 'Action Recogintion' and 'Person-bin Detection', add files from our folders into the folder you cloned from above links
+3. We provided the labeling tool with custimized configuration, you can follow the README.txt inside
