@@ -48,7 +48,7 @@ end
 %%
 clear Result
 for i = 1 : length(Result1)-1000
-    k = i + 1000;
+    k = i + 1000; % '1000' means,person starts appear from this frame, you may change this number accordingly
     name1 = strsplit(Result1(k).imPath,'Frame');
     name2 = strsplit(name1{1,2},'.jpg');
     Result(i).imId = str2num(name2{1,1});
