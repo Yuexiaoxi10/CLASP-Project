@@ -19,4 +19,7 @@ This folder provide several scripts to process ground truth;
   demo_savePath: path for saving images with annotation, not necessary
   PahtHead: path used for saving images with annotation, not necessary
 
+3. 'parseCLASP.m'/ 'script_visual.m' : providing scripts for extracting ground truth from provided 'log' file from ALEAT
+
+
 
