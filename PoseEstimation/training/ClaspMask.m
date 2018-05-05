@@ -1,3 +1,4 @@
+function ClaspMask(my_data)
 addpath('../dataset/COCO/coco/MatlabAPI/');
 addpath('../../testing/util');
 %imroot = '/Users/yuexizhang/Documents/CLASP/training/frames/';
@@ -5,7 +6,7 @@ imroot = '/Users/yuexizhang/Documents/CLASP/training/';
 mkdir('/Users/yuexizhang/Documents/CLASP/training/frames/12_A04/mask_c11');
 %load('./datafile/CLASP_data.mat');
 %my_data = CLASP_data(2).data;
-my_data = my_data4;
+%my_data = my_data4;
 vis = 0;
 %%
 for mode = 1 %0:1
