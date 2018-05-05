@@ -1,4 +1,4 @@
-This folder provides the process of getting detections for person and bins
+This folder provides the process of getting detections for person and bins, you may add our files into the folder which you cloned as metioned previously.
 
 1. readGasonIntoXML(g_string,xml_saveDir)
   Read gt in .json file into .xml for training fasterRCNN, including bins and person
