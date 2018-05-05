@@ -10,4 +10,4 @@ Note: Please Cite their work if using in a publication
 To start:
 1. Please clone each repos from above 4 links, then read their instructions to setup;
 2. We revised some files by following our dataset, so,
-(1) For pose estimation : After you setup all things as instructions; a)replace 'training' with our 'training' folder; b) adding our files from 'testing' into the original 'testing' folder; 
+(1) For pose estimation : After you setup all things as instructions; a)replace scripts in 'training' with scripts in our 'training' folder; b) adding our files from 'testing' into the original 'testing' folder; 
