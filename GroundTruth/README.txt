@@ -21,5 +21,5 @@ This folder provide several scripts to process ground truth;
 
 3. 'parseCLASP.m'/ 'script_visual.m' : providing scripts for extracting ground truth from provided 'log' file from ALEAT
 
-
+4. Toolbox of reading .json file can be found at https://github.com/cocodataset/cocoapi , they provided several API's so you can choose one of them. 
 
